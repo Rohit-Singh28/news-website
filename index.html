@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkyNews</title>
+    <link rel="icon" href="./logo1.jpeg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+
+        <div class="navigation">
+            <div class="logo">
+                <img src="./logo2.png" alt="logo" class="logoimg">
+            </div>
+            <div class="category">
+                <div id="nav" class="IPL" >IPL</div>
+                <div id="nav" class="Finance">Finance</div>
+                <div id="nav" class="Politics">Politics</div>
+                <div id="nav" class="India">India</div>
+            </div>
+            <div class="search">
+                <div class="search">
+                    <label for="Search"></label>
+                    <input type="text" name="Search" id="Search" placeholder="&nbsp; eg G20">
+                </div>
+                <div>
+                    <button class="btn">Search</button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="mainBody">
+            
+        </div> 
+        
+        <div class="feedbackBox">
+            <form action="">
+                <div>
+                    <label for="name">Name &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label>
+                    <input type="text" id="name" placeholder="&nbsp; First name &nbsp; Last name">
+                </div>
+                <div>
+                    <label for="email">Email &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp; </label>
+                    <input type="email" id="email" placeholder="&nbsp; xyz@gmail.com">
+                </div>
+                <div>
+                    <label for="phone">Phone no  &nbsp; &nbsp; </label>
+                    <input type="tex" pattern="[7,8,9][0-9]{9}" placeholder="&nbsp; 9999999999">
+                </div>
+                <div id="feedback">
+                    <textarea name="" id="feedback" placeholder="&nbsp feedback...."></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="feedbackBtn">Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <footer>
+            <div class="footer">  
+                <div class="font-awesome">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <div class="font-awesome">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                </div>
+                <div class="font-awesome">
+                    <a href="https://www.linkedin.com/in/rohitsingh28/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div class="font-awesome">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+                
+
+            </div>
+        </footer>
+
+    </div>
+
+    <template class="templateCard">
+        <div class="card">
+            <div class="cardImg1">
+                <img src="./logo1.jpeg" alt="" id="cardImg">
+            </div>
+            <div class="title">
+                <h3 id="heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos harum dolorem impedit facilis nobis, quas doloribus adipisci delectus ab odio!</h3>
+            </div class>
+            <div class="describtion">
+                <p id="date">published on</p>
+                <p id="summary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam quidem aliquam molestiae officia consequatur, odio maiores nostrum, suscipit hic delectus alias necessitatibus natus soluta neque impedit harum, quod numquam deserunt!</p>
+            </div>
+        </div>
+    </template>
+
+    <template class="templateCardFull">
+        <div class="cardFull">
+            <div class="cardImgFull">
+                <img src="./logo1.jpeg" alt="" id="cardImg">
+            </div>
+            <div class="title">
+                <h3 id="heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos harum dolorem impedit facilis nobis, quas doloribus adipisci delectus ab odio!</h3>
+            </div>
+            <div class="describtion">
+                <p id="date">published on</p>
+                <p id="summary">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam quidem aliquam molestiae officia consequatur, odio maiores nostrum, suscipit hic delectus alias necessitatibus natus soluta neque impedit harum, quod numquam deserunt!</p>
+            </div>
+        </div>
+    </template>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
